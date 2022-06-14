@@ -157,7 +157,7 @@
 
 	<?php
 		
-		echo ">Print 0-100 by while loop<br><br>";
+		echo "Print 0-100 by while loop<br><br>";
 
 		$number=0;
 
