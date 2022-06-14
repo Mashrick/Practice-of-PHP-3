@@ -124,15 +124,48 @@
 
 	?>
 
+
+
+
+	<br>
+	<br>
+
+
 			<!-- Print (1-100) all using for loop -->
 
 	<?php 
 
-		echo "Print (1-100)<br><br>";
+		echo "Print (1-100) by for loop<br><br>";
 		
 		for ($i=0; $i <=100 ; $i++){ 
 
 			echo "$i, ";
+
+		}
+
+
+	?>
+
+
+
+	<br>
+	<br>
+
+
+			<!-- Print (0-100) all using while loop-->
+
+
+	<?php
+		
+		echo ">Print 0-100 by while loop<br><br>";
+
+		$number=0;
+
+		while ($number <=100) {
+
+			echo $number.", ";
+
+			$number++;
 
 		}
 
